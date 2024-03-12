@@ -1,0 +1,235 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Infrastructure\\Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Khaya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Khaya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.4.0-preview1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.114\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Khaya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Khaya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.114\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Khaya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Khaya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Khaya\\Documents\\Workspace\\Technical Assessments\\eTalente\\C# Developer\\Developer_Assessment\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.114\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

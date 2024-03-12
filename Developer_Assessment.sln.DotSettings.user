@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=D24F59A1_002D803C_002D44BD_002DA69E_002DB1037B1D6E80/@EntryIndexedValue">68C6E9EC-D90F-4393-94D8-240A395D772C</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestTemplateMapping/=NUnit3x/@EntryIndexedValue">db4927dd-2e12-48a7-9a84-2b7e3e31b9c8</s:String>
+	<s:Boolean x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/ShowAdvancedOptions/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d5b0cf95_002Da0a2_002D4f3d_002Dad57_002D35f793e86a08/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DefaultConstructorCreatesAnEmptyErrorDictionary" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68C6E9EC-D90F-4393-94D8-240A395D772C::net6.0::Application.UnitTests.Common.ValidationExceptionTest.DefaultConstructorCreatesAnEmptyErrorDictionary&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68C6E9EC-D90F-4393-94D8-240A395D772C::net6.0::Application.UnitTests.Common.ValidationExceptionTest.SingleValidationFailureCreatesASingleElementErrorDictionary&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68C6E9EC-D90F-4393-94D8-240A395D772C::net6.0::Application.UnitTests.Common.ValidationExceptionTest.MulitpleValidationFailureForMultiplePropertiesCreatesAMultipleElementErrorDictionaryEachWithMultipleValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68C6E9EC-D90F-4393-94D8-240A395D772C::net6.0::Application.UnitTests.Common.ValidationExceptionTest.MultipleValidationFailureForMultiplePropertiesCreatesAMultipleElementErrorDictionaryEachWithMultipleValues&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

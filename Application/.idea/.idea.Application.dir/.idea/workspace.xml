@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8e2fc71-a9ab-46c1-9aab-3d10adab372a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Application.UnitTests/Application.UnitTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Application.UnitTests/Common/ValidationExceptionTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Application.UnitTests/Services/AccountHolderServiceTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Application.UnitTests/Usings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Exceptions/ForbiddenAccessException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Exceptions/ValidationException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Interfaces/IAccountHolderService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Interfaces/IAccountService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Mappings/AccountMapping/AccountMapping.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DependencyInjection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/Authentication/Command/AuthenticationCommand/AuthenticationCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/Authentication/Command/AuthenticationCommand/AuthenticationCommandValidation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/BackAccount/Command/CreateWithdrawal/CreateWithdrawalCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/BackAccount/Command/CreateWithdrawal/CreateWithdrawalCommandValidation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/BackAccount/Query/GetAccountByAccountNumber/GetAccountByAccountNumberQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/BackAccount/Query/GetAccountByAccountNumber/GetAccountByAccountNumberQueryValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/BackAccount/Query/GetAccountsByAccountHolder/GetAccountByAccountHolderQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/BackAccount/Query/GetAccountsByAccountHolder/GetAccountByAccountHolderQueryValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositories/IAccountHolderRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositories/IAccountsRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/AccountHolderService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/AccountService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Developer_Assessment.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Developer_Assessment.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Domain/Common/AuditTrail.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Domain/Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Domain/Entities/AccountHolder/AccountHolder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Domain/Entities/BankAccount/BankAccount.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Domain/Entities/BankAccount/BankAccountDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Domain/Entities/Withdrawal/WithdrawRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Domain/Entities/Withdrawal/Withdrawal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Domain/Entities/Withdrawal/WithdrawalResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Domain/Enums/AccountType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/DependencyInjection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Migrations/20240228141455_Initial.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Migrations/20240228141455_Initial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Persistence/ApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Persistence/ApplicationDbContextSeed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Persistence/Configurations/AccountHolderConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Persistence/Configurations/AuditTrailConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Persistence/Configurations/BankAccountConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Persistence/Configurations/WithdrawalConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Persistence/Repositories/AccountHolderRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/Persistence/Repositories/AccountRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/obj/Debug/net6.0/Infrastructure.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/Controllers/AccountController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/Controllers/ApiControllerBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/Web Api.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/obj/Debug/net6.0/Web Api.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/obj/Debug/net6.0/Web Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/obj/Debug/net6.0/Web Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/obj/Debug/net6.0/Web Api.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/obj/Debug/net6.0/Web Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Api/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2dazPFuvKVsLs5emFaSSvG9xYQq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8e2fc71-a9ab-46c1-9aab-3d10adab372a" name="Changes" comment="" />
+      <created>1710260951201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710260951201</updated>
+      <workItem from="1710260952609" duration="68000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
